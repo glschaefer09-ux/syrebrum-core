@@ -64,7 +64,7 @@ fixed, so you can judge the process yourself.
 ## Scan results (release commit)
 
 Scans were re-run on 2026-11-20 against the tree tagged `v0.1.0`, the exact tree that
-was published. Versions are the ones run locally; CI pins its own versions in
+was published. CI pins the same Ruff, Bandit, REUSE and pip-audit versions in
 `.github/workflows/ci.yml`.
 
 | Check | Tool | Result |
@@ -80,10 +80,9 @@ was published. Versions are the ones run locally; CI pins its own versions in
 ## CI status
 
 The full test suite (240 tests) and every check above passed locally on
-Python 3.10, 3.11, 3.12, 3.13 and 3.14 before release. GitHub Actions for
-this repository were not running at release time because of an account
-billing hold, so the CI badge may show no runs yet. CI will run on the next
-push once that is resolved.
+Python 3.10, 3.11, 3.12, 3.13 and 3.14, and in GitHub Actions on Linux
+(3.10 to 3.14), macOS and Windows for the release commit, including a build
+and install of the package in a clean environment.
 
 ## Limits of this review
 

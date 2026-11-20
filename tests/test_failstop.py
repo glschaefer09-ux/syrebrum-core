@@ -203,7 +203,7 @@ def test_duplicate_field_denies():
     assert parse_decision(raw, r).verdict is Verdict.DENY
 
 
-@pytest.mark.parametrize("raw", [b'{"v": NaN}', b'{"v": Infinity}', b"[" * 100000, b'{"v": "\\ud800"}'])
+@pytest.mark.parametrize("raw", [b'{"v": NaN}', b'{"v": Infinity}', b"[" * 100000, b'{"v": "\\ud800"}'], ids=["nan", "infinity", "deep", "lone-surrogate"])
 def test_hostile_json_denies(raw):
     assert parse_decision(raw, req()).verdict is Verdict.DENY
 
