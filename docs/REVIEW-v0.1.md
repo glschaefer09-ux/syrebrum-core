@@ -13,6 +13,9 @@ fixed, so you can judge the process yourself.
   Round 4 added three more independent reviewers on different AI models
   (Google Gemini, xAI Grok and Anthropic Claude), plus a repeated
   multi-process stress run that found finding 26.
+  Round 5 re-checked every round 4 fix, including a randomized run of 400
+  seeded sequences of normal API calls that verified the receipts after
+  every step, and found one Low (finding 35).
 - **Automated scans** that match what services like Aikido Security run:
   static analysis (SAST), secret detection, dependency (SCA) and license
   checks, and CI workflow checks. Results are in the table below.
