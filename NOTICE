@@ -1,0 +1,12 @@
+Syrebrum Core
+Copyright 2026 CCD Enterprise & Development LLC
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It contains no third-party code and has no runtime dependencies; it uses only
+the Python standard library. If third-party code is ever added, its notice
+will be listed here.
+
+"Syrebrum", "FailStop" and related names are trademarks of CCD Enterprise &
+Development LLC. The software license does not grant trademark rights; see
+TRADEMARKS.md.

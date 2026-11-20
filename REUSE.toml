@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = ["**.md", "docs/sbom/**", "pyproject.toml", "REUSE.toml", ".github/**", "scripts/**", "LICENSE", "NOTICE", ".gitignore"]
+SPDX-FileCopyrightText = "2026 CCD Enterprise & Development LLC"
+SPDX-License-Identifier = "Apache-2.0"

@@ -1,0 +1,48 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:967b4f23-2624-5497-a49f-4e787a624c1a",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:pypi/syrebrum-core@0.1.0?vcs_url=git%2Bhttps://github.com/glschaefer09-ux/syrebrum-core@v0.1.0",
+      "name": "syrebrum-core",
+      "version": "0.1.0",
+      "description": "Local-first, deny-by-default job orchestration with tamper-evident receipts",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "CCD Enterprise & Development LLC",
+        "url": [
+          "https://www.syrebrum.com/"
+        ]
+      },
+      "purl": "pkg:pypi/syrebrum-core@0.1.0?vcs_url=git%2Bhttps://github.com/glschaefer09-ux/syrebrum-core@v0.1.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/glschaefer09-ux/syrebrum-core"
+        }
+      ]
+    },
+    "supplier": {
+      "name": "CCD Enterprise & Development LLC",
+      "url": [
+        "https://www.syrebrum.com/"
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/syrebrum-core@0.1.0?vcs_url=git%2Bhttps://github.com/glschaefer09-ux/syrebrum-core@v0.1.0",
+      "dependsOn": []
+    }
+  ]
+}
